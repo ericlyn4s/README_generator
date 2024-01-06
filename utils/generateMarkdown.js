@@ -1,7 +1,7 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Created a function that returns a license badge based on which license is passed in / selected. If the user selected 'none' for license, no badge is displayed
 function renderLicenseBadge(license) {
-  if (license !== "none") {
+  // A switch case includes different badge links for each of the badge options
+  if (license !== "None") {
     
     switch (license) {
       case 'Apache License 2.0':
@@ -33,10 +33,9 @@ function renderLicenseBadge(license) {
   } return "";
 }
 
-// TODO: Create a function to generate markdown for README
+// Created a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}<br />${renderLicenseBadge(data.license)}\n
-${licenseBadge}\n
 ## Description\n
 ${data.description}\n
 ## Table of Contents\n
@@ -83,4 +82,5 @@ For additional questions, I can be emailed at: ${data.email}
 `;
 }
 
+// Export the above function to the index.js page so that it's able to be called
 module.exports = generateMarkdown;

@@ -1,10 +1,8 @@
-# kasldf<br />[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-
-
+# lksjdf<br />
 
 ## Description
 
-asdfakljsdf
+sdlkfj
 
 ## Table of Contents
 
@@ -22,14 +20,14 @@ asdfakljsdf
 
 ## Installation
 
-asdkfj
+sdlkfj
 
 ## Usage
 
-asdfkjlasdf
+lskdjf
 
 ## License
-BSD 3-Clause "New" or "Revised" License
+None
 
 
 Copyright (c) 2024 
@@ -55,14 +53,14 @@ SOFTWARE.
 
 ## Contributing
 
-sdf
+lksjdf
 
 ## Tests
 
-sdf
+lksjdf
 
 ## Questions
 
-My GitHub username is **asdf**, and my profile can be accessed here: https://github.com/asdf
+My GitHub username is **skldf**, and my profile can be accessed here: https://github.com/skldf
 
-For additional questions, I can be emailed at: sdf
+For additional questions, I can be emailed at: lksjdf
