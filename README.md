@@ -1,4 +1,4 @@
-# README Generater
+# README Generator
 
 ## Description
 
@@ -12,11 +12,15 @@ This project can be forked from my GitHub repository here:
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+<image src="assets/Command_line_input.png" alt="Example of terminal input" width="450">
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+From your terminal/command line, navigate to the README genertor folder. From here, input 'node index.js' and you'll be lead through several questions regarding your project. It will ask for your project's title, a description, installation instructions, usage instructions, how others can contribute, testing recommendations, what license the project is covered under (with a list of possible licenses), you GitHub username and your email address. This will then generate a new file called "Generated_README.md". This will display a license badge depending on which license you selected previously. Each section will contain the information you input. Finally, the table of contents section will list each section and include a link to that given section within the README. The intent is to copy this file into your project.
 
-![alt text](assets/images/screenshot.png)
+
+
+<image src="assets/Example_output.png" alt="Example of README output" width="450">
+
+For further assistance, an insturctional video can be viewed [here](/Instructional%20Video.webm).
 
 ## Credits
 
