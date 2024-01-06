@@ -3,6 +3,8 @@
 var licenseBadge = [];
 
 
+
+
 function renderLicenseBadge(license) {
   if (license !== "none") {
     /*
@@ -25,16 +27,23 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  
   return `# ${data.title}\n
 ${licenseBadge}\n
 ## Description\n
 ${data.description}\n
 ## Table of Contents\n
+[Installation](#installation)\n
+[Usage](#usage)\n
+[License](#license)\n
+[Contributing](#contributing)\n
+[Tests](#tests)\n
+[Questions](#questions)\n
 ## Installation\n
 ${data.installation}\n
 ## Usage\n
 ${data.usage}\n
-## License\n
+## License
 ${renderLicenseBadge(data.license)}\n
 ## Contributing\n
 ${data.contribution}\n
